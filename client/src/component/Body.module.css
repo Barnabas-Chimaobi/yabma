@@ -1,0 +1,89 @@
+.bodyWrapper {
+  margin: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper1 {
+  padding: 0 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.enrollNewStudent {
+  border: 1px solid lightgreen;
+  background: green;
+  height: 3rem;
+  padding-top: 10px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.cbtTraining {
+  border: 1px solid lightgreen;
+  background: blue;
+  height: 3rem;
+  padding-top: 10px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.paySchoolFees {
+  border: 1px solid lightgreen;
+  background: rgb(182, 182, 31);
+  height: 3rem;
+  padding-top: 5px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.jambRegistration {
+  border: 1px solid lightgreen;
+  background: lightcoral;
+  height: 3rem;
+  padding-top: 10px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.newsRoom {
+  border: 1px solid lightgreen;
+  background: brown;
+  height: 3rem;
+  padding-top: 10px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.wrapper3 {
+  text-align: center;
+  width: 25rem;
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 1px solid gray;
+}
+
+.vision {
+  color: green;
+}
+
+.mission {
+  color: green;
+}
+
+.wrapper2 {
+  width: 40rem;
+  text-align: center;
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

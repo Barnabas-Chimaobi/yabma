@@ -1,0 +1,58 @@
+.headerWrapper {
+  background: #440649;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.yabma1 {
+  width: 730px;
+  height: 20rem;
+  animation: yabma 20s infinite;
+  background-image: url("./assets/yabma1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* .yabma1 {
+  animation: yabma 20s infinite;
+  background-image: url("./assets/yabma1.png");
+}  */
+
+@keyframes yabma {
+  20% {
+    background-image: url("./assets/yabmakids.jpg");
+  }
+  40% {
+    background-image: url("./assets/yabmaj3.jpg");
+  }
+  60% {
+    background-image: url("./assets/j3practical.jpg");
+  }
+  80% {
+    background-image: url("./assets//yabmastaff.jpg");
+  }
+  100% {
+    background-image: url("./assets/yabma1.png");
+  }
+}
+
+.yabmalogo {
+  padding: 0 5rem;
+  width: 15rem;
+  height: 5rem;
+}
+
+.logoWrapper {
+  background: #ccc4b9;
+  text-align: center;
+}
+
+.yabmaName {
+  background: #440649;
+  font-size: 1.4rem;
+  margin-right: 0.3rem;
+  margin-left: 1rem;
+  color: white;
+  text-align: center;
+}

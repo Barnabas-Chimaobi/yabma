@@ -1,0 +1,27 @@
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #820b8a;
+  height: 50px;
+}
+
+.navbar {
+  margin-top: 13px;
+}
+.navbar a {
+  padding: 3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.navLogin a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 3rem;
+}
+
+.navLogin {
+  margin-top: 13px;
+}

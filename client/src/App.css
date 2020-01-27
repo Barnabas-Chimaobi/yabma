@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
+body {
+  /* background: rgb(197, 196, 196); */
 }
+/* .App {
+  text-align: center;
+  background: #d6cec3;
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
