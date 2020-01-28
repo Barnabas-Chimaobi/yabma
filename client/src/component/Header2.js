@@ -7,10 +7,10 @@ class Header2 extends Component {
     return (
       <div className={styles.navWrapper}>
         <div className={styles.navbar}>
-          <a href="#">Home</a>
-          <a href="#">About us</a>
-          <a href="#">Our facilities</a>
-          <a href="#">Contact us</a>
+        <NavLink activeClassName="active" to="/signup" >Home</NavLink>
+        <NavLink activeClassName="active" to="/signup" >About Us</NavLink>
+        <NavLink activeClassName="active" to="/signup" >Our Facilities</NavLink>
+        <NavLink activeClassName="active" to="/signup" >Contact Us</NavLink>
         </div>
         <div className={styles.navLogin}>
           <NavLink activeClassName="active" to="/signup" >Signup</NavLink>
