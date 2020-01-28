@@ -22,7 +22,9 @@
   "scripts": {
     "start": "node server/app.js",
     "heroku-postbuild": "yarn run build:prod",   
-    "build": "react-scripts build",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
